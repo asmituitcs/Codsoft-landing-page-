@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="2HM.css">
+    <title> 2Hm </title>
+</head>
+
+<body>
+
+
+    <!-- ====================================== * NAVBAR * ========================================== -->
+
+
+    <div class="header">
+        <div class="navbar">
+            <a href="./2HM.html"><img src="/image/logo.png"></a>
+
+            <div class="country_select" id="country">
+                <div class="select">
+                    <p id="text">Select your Hostel Name</p>
+                    <i class="fa-solid fa-chevron-down" id="moving"></i>
+                </div>
+                <ul class="option_box" id="list">
+                    <li class="option" onclick="myFunction('Banbas Hostel')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Banbas Hostel</p>
+                    </li>
+                    <li class="option" onclick="myFunction('J.C.Bose Hostel')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>J.C.Bose Hostel</p>
+                    </li>
+                    <li class="option" onclick="myFunction('S.N.Bose Hostel')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>S.N.Bose Hostel</p>
+                    </li>
+                    <li class="option" onclick="myFunction('Madam Curie Hostel')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Madam Curie Hostel</p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+
+            <div class="search_box">
+                <input type="text" class="searchclass" id="'searchid" placeholder="Find fans, mobiles and more...">
+                <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+            </div>
+
+
+
+
+
+            <div class="language">
+                <div class="dropdwn">
+                    <p id="lang_tag"> English </p>
+                    <i class="fa-solid fa-chevron-down" id="moving2"></i>
+                </div>
+                <ul class="hin_eng">
+                    <li onclick="myLang('English')"> English </li>
+                    <li onclick="myLang('हिन्दी')"> हिन्दी </li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="message">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+
+            <div class="message">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+
+
+
+
+            <div class="your_profile">
+                <div class="your_img" id="your_img_id">
+                    <img src="/image/pic.jpg">
+                </div>
+
+                <div class="dropdown" id="dropdownid">
+                    <div class="pers_info">
+                        <img src="/image/pic.jpg">
+                        <p style="margin-left: 10px;">Senku Ishigami</p>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-user"></i>
+                            <p>My Account</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-box"></i>
+                            <p>My Orders</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-solid fa-circle-question"></i>
+                            <p>Help</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Setting</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            <p>Log Out</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="selling_page">
+                <button>
+                    <p style="margin-right: 5px;">SELL</p>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ====================================== * PRODUCT * ========================================== -->
+
+    <div class="product">
+        <div class="Row">
+            <div class="box">
+                <a href="./product/product_1.html">
+                    <img src="image/p1.jpeg">
+                    <h2>₹15,000</h2>
+                    <p>POCO M2 pro</p>
+                    <div class="address">
+                        <p>New Bnabas Hostel, Room-9</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_2.html">
+                    <img src="image/p2.jpeg">
+                    <h2>₹600</h2>
+                    <p>Electric Kettle</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-14</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_3.html">
+                    <img src="image/p3.jpeg">
+                    <h2>₹45,000</h2>
+                    <p>HP Laptop</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-13</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_4.html">
+                    <img src="image/p4.jpeg">
+                    <h2>₹500</h2>
+                    <p>Scientific Calculator</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-9</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="box">
+                <a href="./product/product_5.html">
+                    <img src="image/p5.jpeg">
+                    <h2>₹1,000</h2>
+                    <p>Electrical Iron</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-9</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_6.html">
+                    <img src="image/p6.jpeg">
+                    <h2>₹600</h2>
+                    <p>Bluetooth Earphone</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-13</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_7.html">
+                    <img src="image/p7.jpeg">
+                    <h2>₹300</h2>
+                    <p>Extension Board</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-13</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_8.html">
+                    <img src="image/p8.jpeg">
+                    <h2>₹500</h2>
+                    <p>Electric Kettle</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-25</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="box">
+                <a href="./product/product_9.html">
+                    <img src="image/p9.jpeg">
+                    <h2>₹450</h2>
+                    <p>HP Keyboard</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-12</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_10.html">
+                    <img src="image/p10.jpeg">
+                    <h2>₹299</h2>
+                    <p>HP Mouse</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-12</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_11.html">
+                    <img src="image/p11.jpeg">
+                    <h2>₹845</h2>
+                    <p>Analog Watch</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-26</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="./product/product_12.html">
+                    <img src="image/p12.jpeg">
+                    <h2>₹35,500</h2>
+                    <p>HP Laptop</p>
+                    <div class="address">
+                        <p>New Banabas Hostel, Room-12</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- =============================== * Loadmore * ============================================ -->
+
+
+    <div class="loadmore">
+
+        <button id="loadmoreid">Load More</button>
+
+        <div class="loadprod" id="loadprodid">
+            <div class="Row">
+                <div class="box">
+                    <a href="./product/product_13.html">
+                        <img src="image/p13.jpeg">
+                        <h2>₹1,450</h2>
+                        <p>BOAT Airdope</p>
+                        <div class="address">
+                            <p>New Banabas Hostel, Room-12</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./product/product_14.html">
+                        <img src="image/p14.jpeg">
+                        <h2>₹299</h2>
+                        <p>Extension Board</p>
+                        <div class="address">
+                            <p>New Banabas Hostel, Room-25</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./product/product_15.html">
+                        <img src="image/p15.jpeg">
+                        <h2>₹3,000</h2>
+                        <p>Hero MountainBike</p>
+                        <div class="address">
+                            <p>New Banabas Hostel, Romm-6</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./product/product_16.html">
+                        <img src="image/p16.jpeg">
+                        <h2>₹200</h2>
+                        <p>Sunglasses</p>
+                        <div class="address">
+                            <p>New Banabas Hostel, Room-14</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="Row">
+                <div class="box">
+                    <a href="./product/product_17.html">
+                        <img src="image/p17.jpeg">
+                        <h2>₹18,000</h2>
+                        <p>Realme 6 pro</p>
+                        <div class="address">
+                            <p>New Banabas Hostel, Room-09</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./product/product_18.html">
+                        <img src="image/p18.jpeg">
+                        <h2>₹11,299</h2>
+                        <p>Realme Narzo 50 A</p>
+                        <div class="address">
+                            <p>New Banabas Hostel, Room-06</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./product/product_19.html">
+                        <img src="image/p19.jpeg">
+                        <h2>₹4,000</h2>
+                        <p>Redmi 6</p>
+                        <div class="address">
+                            <p>New Bnabas Hostel, Room-14</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./product/product_20.html">
+                        <img src="image/p20.jpeg">
+                        <h2>₹899</h2>
+                        <p>POCO Adaptor</p>
+                        <div class="address">
+                            <p>New Bnabas Hostel, Room-09</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =============================== * footer * ============================================ -->
+
+
+
+    <div class="main_footer">
+        <hr>
+        <div class="footer">
+            <div class="footer_box">
+                <h2>LOCATIONS AVAILABLE</h2>
+                <p> Banbas Hostel</p>
+                <p>J.C.Bose Hostel</p>
+                <p>S.N.Bose Hostel</p>
+                <p>Madam Cury Girl's Hostel</p>
+            </div>
+            <div class="footer_box">
+                <h2>ABOUT US</h2>
+                <p> About 2Hm Group</p>
+                <p>Contact Us</p>
+                <p>2Hm People</p>
+            </div>
+            <div class="footer_box">
+                <h2>2Hm</h2>
+                <p> Help</p>
+                <p>Legal & Privacy information</p>
+                <p>Blog</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyright © 2022 2Hm.com |  All rights reserved
+    </footer>
+
+
+
+    <script>
+
+        // ====================================== * NAVBAR * ========================================== \\
+
+
+
+        let country = document.getElementById('country');
+        let moving = document.getElementById('moving');
+        let text = document.getElementById('text');
+        let list = document.getElementById('list');
+
+        country.addEventListener('click', () => {
+            list.classList.toggle('hidden')
+            moving.classList.toggle('rotate')
+        })
+
+        function myFunction(cntry) {
+            text.innerHTML = cntry;
+        }
+
+        let lang_tag = document.getElementById('lang_tag');
+        let hin_eng = document.querySelector('.hin_eng');
+        let language = document.querySelector('.language');
+        let mvng = document.querySelector('#moving2');
+
+        language.addEventListener('click', () => {
+            hin_eng.classList.toggle('display_div');
+            mvng.classList.toggle('rotate');
+        });
+
+        function myLang(langu) {
+            lang_tag.innerHTML = langu;
+        }
+
+        let your_img_id = document.getElementById('your_img_id');
+        let dropdownid = document.getElementById('dropdownid');
+
+        your_img_id.addEventListener('click', () => {
+            dropdownid.classList.toggle('block_div')
+        })
+
+
+        //  =============================== * loadmore * ============================================
+
+
+        let loadmoreid = document.getElementById('loadmoreid');
+        let loadprodid = document.getElementById('loadprodid');
+
+
+        loadmoreid.addEventListener('click', () => {
+            loadprodid.style = 'display:block';
+            loadmoreid.style = 'display:none'
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>

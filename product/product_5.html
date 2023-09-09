@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="navbar">
+            <a href="../2HM.html"><img src="/image/logo.png"></a>
+
+            <div class="country_select" id="country">
+                <div class="select">
+                    <p id="text">Select your Hostel Name</p>
+                    <i class="fa-solid fa-chevron-down" id="moving"></i>
+                </div>
+                <ul class="option_box" id="list">
+                    <li class="option" onclick="myFunction('Banbas Hostel')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Banbas Hostel</p>
+                    </li>
+                    <li class="option" onclick="myFunction('J.C.Bose Hostel')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>J.C.Bose Hostel</p>
+                    </li>
+                    <li class="option" onclick="myFunction('S.N.Bose Hostel')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>S.N.Bose Hostel</p>
+                    </li>
+                    <li class="option" onclick="myFunction('Madam Curie Hostel')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Madam Curie Hostel</p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+
+            <div class="search_box">
+                <input type="text" class="searchclass" id="'searchid" placeholder="Find fans, mobiles and more...">
+                <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+            </div>
+
+
+
+
+
+            <div class="language">
+                <div class="dropdwn">
+                    <p id="lang_tag"> English </p>
+                    <i class="fa-solid fa-chevron-down" id="moving2"></i>
+                </div>
+                <ul class="hin_eng">
+                    <li onclick="myLang('English')"> English </li>
+                    <li onclick="myLang('हिन्दी')"> हिन्दी </li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="message">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+
+            <div class="message">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+
+
+
+
+            <div class="your_profile">
+                <div class="your_img" id="your_img_id">
+                    <img src="/image/pic.jpg">
+                </div>
+
+                <div class="dropdown" id="dropdownid">
+                    <div class="pers_info">
+                        <img src="/image/pic.jpg">
+                        <p style="margin-left: 10px;">Senku Ishigami</p>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-user"></i>
+                            <p>My Account</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-box"></i>
+                            <p>My Orders</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-solid fa-circle-question"></i>
+                            <p>Help</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Setting</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            <p>Log Out</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="selling_page">
+                <button>
+                    <p style="margin-right: 5px;">SELL</p>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============================== * product img * ============================================ -->
+
+    <div class="prodimg">
+
+        <div class="imgdesc">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> <img src="../image/p5.jpeg"></div>
+                    <div class="swiper-slide"> <img src="../image/p5_1.jpeg"></div>
+                    <div class="swiper-slide"> <img src="../image/p5_2.jpeg"></div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev" id="prev"></div>
+                <div class="swiper-button-next" id="next"></div>
+            </div>
+
+            <div class="description">
+                <h3>Description</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate laboriosam vero magni quod quo deserunt adipisci facilis voluptatum? Beatae modi non quas a, assumenda animi.<br>
+                MRP 2,000</p>
+            </div>
+        </div>
+
+        <div class="prod_details">
+            <div class="box">
+                <div class="price">
+                    <h3>₹1,000</h3>
+                    <div>
+                        <p><i class="fa-solid fa-share-nodes"></i></p>
+                        <p><i class="fa-regular fa-heart"></i></p>
+                    </div>
+                </div>
+                <span>Electic iron</span>
+                <p>Banbas Hostel, Room-09</p>
+            </div>
+
+            <div class="box" id="box2">
+                <p class="seller_desc">Seller Description</p>
+                <div class="seller_detail">
+                    <img src="../image/asmit.jpg" alt="">
+                    <div>
+                        <h2>Asmit Kumar</h2>
+                    </div>
+                </div>
+                <a href="#">Chat With Seller</a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <footer>
+        Copyright © 2022 2Hm.com |  All rights reserved
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+
+        // ====================================== * NAVBAR * ========================================== \\
+
+
+
+        let country = document.getElementById('country');
+        let moving = document.getElementById('moving');
+        let text = document.getElementById('text');
+        let list = document.getElementById('list');
+
+        country.addEventListener('click', () => {
+            list.classList.toggle('hidden')
+            moving.classList.toggle('rotate')
+        })
+
+        function myFunction(cntry) {
+            text.innerHTML = cntry;
+        }
+
+        let lang_tag = document.getElementById('lang_tag');
+        let hin_eng = document.querySelector('.hin_eng');
+        let language = document.querySelector('.language');
+        let mvng = document.querySelector('#moving2');
+
+        language.addEventListener('click', () => {
+            hin_eng.classList.toggle('display_div');
+            mvng.classList.toggle('rotate');
+        });
+
+        function myLang(langu) {
+            lang_tag.innerHTML = langu;
+        }
+
+        let your_img_id = document.getElementById('your_img_id');
+        let dropdownid = document.getElementById('dropdownid');
+
+        your_img_id.addEventListener('click', () => {
+            dropdownid.classList.toggle('block_div')
+        })
+
+
+
+        //  =============================== * product img* ============================================
+
+
+        const swiper = new Swiper('.swiper', {
+
+            loop: true,
+
+
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            });
+
+
+
+    </script>
+    
+</body>
+</html>
